@@ -1,0 +1,13 @@
+machine:
+  environment:
+    DATABASE_URL: postgres://ubuntu:@127.0.0.1:5432/circle_test
+database:
+  override:
+    - bundle exec rake db:setup db:migrate --trace
+test:
+  pre:
+    - ./bin/bundle-audit update
+    - ./bin/bundle-audit check
+    - ./bin/brakeman -z
+    - ./bin/rubocop -R
+    - npm run build

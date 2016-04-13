@@ -1,0 +1,10 @@
+enable_defaults! { ENV["RACK_ENV"] != "production" }
+
+variable :SENTRY_DSN, :string, default: ""
+variable :SECRET_KEY_BASE, :string, default: "supersecret"
+
+variable :DATABASE_URL, :string, default: "postgresql://#{`whoami`.strip}@localhost:5432/wheels_development"
+
+# group :production do
+#   variable :DATABASE_URL
+# end

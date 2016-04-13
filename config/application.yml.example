@@ -1,0 +1,2 @@
+test:
+  DATABASE_URL: "postgresql://username@localhost:5432/wheels_test"

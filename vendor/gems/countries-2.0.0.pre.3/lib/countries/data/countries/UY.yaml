@@ -1,0 +1,40 @@
+---
+UY:
+  continent: South America
+  alpha2: UY
+  alpha3: URY
+  country_code: '598'
+  international_prefix: '00'
+  ioc: URU
+  gec: UY
+  name: Uruguay
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  - 8
+  national_prefix: '0'
+  number: '858'
+  region: Americas
+  subregion: South America
+  world_region: AMER
+  un_locode: UY
+  nationality: Uruguayan
+  postal_code: true
+  unofficial_names:
+  - Uruguay
+  - "ウルグアイ"
+  languages_official:
+  - es
+  languages_spoken:
+  - es
+  geo:
+    latitude: 33 00 S
+    latitude_dec: "-32.96965408325195"
+    longitude: 56 00 W
+    longitude_dec: "-56.055908203125"
+    max_latitude: "-30.183333"
+    max_longitude: "-53.266667"
+    min_latitude: "-35.033333"
+    min_longitude: "-58.5"
+  currency_code: UYU

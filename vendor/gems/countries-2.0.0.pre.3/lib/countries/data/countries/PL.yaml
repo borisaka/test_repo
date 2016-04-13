@@ -1,0 +1,56 @@
+---
+PL:
+  continent: Europe
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{region}}
+    {{country}}
+  alpha2: PL
+  alpha3: POL
+  country_code: '48'
+  international_prefix: '00'
+  ioc: POL
+  gec: PL
+  name: Poland
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 9
+  national_prefix: '0'
+  number: '616'
+  region: Europe
+  subregion: Eastern Europe
+  world_region: EMEA
+  un_locode: PL
+  nationality: Polish
+  eu_member: true
+  vat_rates:
+    standard: 23
+    reduced:
+    - 5
+    - 8
+    super_reduced: 
+    parking: 
+  postal_code: true
+  unofficial_names:
+  - Poland
+  - Polen
+  - Pologne
+  - Polonia
+  - "ポーランド"
+  languages_official:
+  - pl
+  languages_spoken:
+  - pl
+  geo:
+    latitude: 52 00 N
+    latitude_dec: '52.147850036621094'
+    longitude: 20 00 E
+    longitude_dec: '19.37775993347168'
+    max_latitude: '54.833333'
+    max_longitude: '26.5'
+    min_latitude: '45.5'
+    min_longitude: '14'
+  currency_code: PLN

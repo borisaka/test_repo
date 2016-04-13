@@ -1,0 +1,43 @@
+---
+LC:
+  continent: North America
+  alpha2: LC
+  alpha3: LCA
+  country_code: '1'
+  international_prefix: '011'
+  ioc: LCA
+  gec: ST
+  name: Saint Lucia
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  number: '662'
+  region: Americas
+  subregion: Caribbean
+  world_region: AMER
+  un_locode: LC
+  nationality: Saint Lucian
+  postal_code: false
+  unofficial_names:
+  - Saint Lucia
+  - Saint-Lucie
+  - Santa Lucía
+  - "セントルシア"
+  - St. Lucia
+  - St Lucia
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  geo:
+    latitude: 13 53 N
+    latitude_dec: '13.86330509185791'
+    longitude: 60 58 W
+    longitude_dec: "-60.9665641784668"
+    max_latitude: '14.1'
+    max_longitude: "-60.866667"
+    min_latitude: '13.7'
+    min_longitude: "-61.066667"
+  currency_code: XCD

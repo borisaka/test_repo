@@ -1,0 +1,43 @@
+---
+GU:
+  continent: Australia
+  alpha2: GU
+  alpha3: GUM
+  country_code: '1'
+  international_prefix: '011'
+  ioc: GUM
+  gec: GQ
+  name: Guam
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  number: '316'
+  region: Oceania
+  subregion: Micronesia
+  world_region: APAC
+  un_locode: GU
+  nationality: Guamanian
+  postal_code: true
+  unofficial_names:
+  - Guam
+  - "グアム"
+  languages_official:
+  - en
+  - ch
+  - es
+  languages_spoken:
+  - en
+  - ch
+  - es
+  geo:
+    latitude: 13 28 N
+    latitude_dec: '13.42112922668457'
+    longitude: 144 47 E
+    longitude_dec: '144.73971557617188'
+    max_latitude: '13.652320'
+    max_longitude: '144.953995'
+    min_latitude: '13.240590'
+    min_longitude: '144.619263'
+  currency_code: USD

@@ -1,0 +1,46 @@
+---
+TW:
+  continent: Asia
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{city}} {{region_short}} {{postalcode}}
+    {{country}}
+  alpha2: TW
+  alpha3: TWN
+  country_code: '886'
+  international_prefix: '002'
+  ioc: TPE
+  gec: TW
+  name: Taiwan, Republic Of China
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  - 8
+  national_prefix: None
+  number: '158'
+  region: Asia
+  subregion: Eastern Asia
+  world_region: APAC
+  un_locode: TW
+  nationality: Taiwanese
+  postal_code: true
+  unofficial_names:
+  - Taiwan
+  - Taiwán
+  - "台湾"
+  languages_official:
+  - zh
+  languages_spoken:
+  - zh
+  geo:
+    latitude: 23 30 N
+    latitude_dec: '23.685789108276367'
+    longitude: 121 00 E
+    longitude_dec: '120.89749145507812'
+    max_latitude: '26.389444'
+    max_longitude: '122.107778'
+    min_latitude: '21.733333'
+    min_longitude: '118.1152555661'
+  currency_code: TWD

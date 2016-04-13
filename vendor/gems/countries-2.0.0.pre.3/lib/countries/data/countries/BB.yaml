@@ -1,0 +1,40 @@
+---
+BB:
+  continent: North America
+  alpha2: BB
+  alpha3: BRB
+  country_code: '1'
+  international_prefix: '011'
+  ioc: BAR
+  gec: BB
+  name: Barbados
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  number: '052'
+  region: Americas
+  subregion: Caribbean
+  world_region: AMER
+  un_locode: BB
+  nationality: Barbadian
+  postal_code: true
+  unofficial_names:
+  - Barbade
+  - Barbados
+  - "バルバドス"
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  geo:
+    latitude: 13 10 N
+    latitude_dec: '13.178098678588867'
+    longitude: 59 32 W
+    longitude_dec: "-59.5485954284668"
+    max_latitude: '13.333333'
+    max_longitude: "-59.416667"
+    min_latitude: '13.033333'
+    min_longitude: "-59.65"
+  currency_code: BBD

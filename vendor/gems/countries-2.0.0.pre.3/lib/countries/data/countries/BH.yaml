@@ -1,0 +1,47 @@
+---
+BH:
+  continent: Asia
+  address_format: |-
+    {{recipient}}
+    {{street}}
+    {{postalcode}} {{city}}
+    {{country}}
+  alpha2: BH
+  alpha3: BHR
+  country_code: '973'
+  international_prefix: '00'
+  ioc: BRN
+  gec: BA
+  name: Bahrain
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 8
+  national_prefix: None
+  number: 048
+  region: Asia
+  subregion: Western Asia
+  world_region: EMEA
+  un_locode: BH
+  nationality: Bahraini
+  postal_code: true
+  unofficial_names:
+  - Bahrain
+  - "البحرين"
+  - Bahreïn
+  - Bahrein
+  - "バーレーン"
+  languages_official:
+  - ar
+  languages_spoken:
+  - ar
+  geo:
+    latitude: 26 00 N
+    latitude_dec: '26.094240188598633'
+    longitude: 50 33 E
+    longitude_dec: '50.54299545288086'
+    max_latitude: '26.416667'
+    max_longitude: '50.823333'
+    min_latitude: '25'
+    min_longitude: '45'
+  currency_code: BHD

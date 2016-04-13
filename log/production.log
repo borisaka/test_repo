@@ -1,0 +1,402 @@
+I, [2016-04-06T15:04:51.338936 #29570]  INFO -- : ** [Raven] Raven 0.15.6 configured not to send errors.
+I, [2016-04-06T15:04:51.369658 #29570]  INFO -- : ** [Raven] Raven 0.15.6 ready to catch errors
+D, [2016-04-06T15:04:51.449643 #29570] DEBUG -- :   [1m[36mROM[postgres] (0.2ms)[0m  [1mSET standard_conforming_strings = ON[0m  
+D, [2016-04-06T15:04:51.449900 #29570] DEBUG -- :   [1m[35mROM[postgres] (0.2ms)[0m  SET client_min_messages = 'WARNING'  
+D, [2016-04-06T15:04:51.450076 #29570] DEBUG -- :   [1m[36mROM[postgres] (0.1ms)[0m  [1mSET DateStyle = 'ISO'[0m  
+D, [2016-04-06T15:04:51.451905 #29570] DEBUG -- :   [1m[35mROM[postgres] (1.4ms)[0m  SELECT "relname" FROM "pg_class" INNER JOIN "pg_namespace" ON ("pg_namespace"."oid" = "pg_class"."relnamespace") WHERE (("relkind" = 'r') AND ("pg_namespace"."nspname" = any(current_schemas(false))))  
+D, [2016-04-06T15:04:51.505499 #29570] DEBUG -- :   [1m[36mROM[postgres] (0.6ms)[0m  [1mSELECT NULL AS "nil" FROM "settings" LIMIT 1[0m  
+D, [2016-04-06T15:04:51.506828 #29570] DEBUG -- :   [1m[35mROM[postgres] (1.0ms)[0m  SELECT pg_attribute.attname AS pk FROM pg_class, pg_attribute, pg_index, pg_namespace WHERE pg_class.oid = pg_attribute.attrelid AND pg_class.relnamespace = pg_namespace.oid AND pg_class.oid = pg_index.indrelid AND pg_index.indkey[0] = pg_attribute.attnum AND pg_index.indisprimary = 't' AND pg_class.oid = CAST(CAST('"settings"' AS regclass) AS oid)  
+D, [2016-04-06T15:04:51.507402 #29570] DEBUG -- :   [1m[36mROM[postgres] (0.3ms)[0m  [1mSELECT * FROM "settings" LIMIT 1[0m  
+I, [2016-04-06T15:05:04.982679 #29641]  INFO -- : ** [Raven] Raven 0.15.6 configured not to send errors.
+I, [2016-04-06T15:05:05.011552 #29641]  INFO -- : ** [Raven] Raven 0.15.6 ready to catch errors
+D, [2016-04-06T15:05:05.077565 #29641] DEBUG -- :   [1m[36mROM[postgres] (0.3ms)[0m  [1mSET standard_conforming_strings = ON[0m  
+D, [2016-04-06T15:05:05.077868 #29641] DEBUG -- :   [1m[35mROM[postgres] (0.2ms)[0m  SET client_min_messages = 'WARNING'  
+D, [2016-04-06T15:05:05.078092 #29641] DEBUG -- :   [1m[36mROM[postgres] (0.2ms)[0m  [1mSET DateStyle = 'ISO'[0m  
+D, [2016-04-06T15:05:05.079926 #29641] DEBUG -- :   [1m[35mROM[postgres] (1.5ms)[0m  SELECT "relname" FROM "pg_class" INNER JOIN "pg_namespace" ON ("pg_namespace"."oid" = "pg_class"."relnamespace") WHERE (("relkind" = 'r') AND ("pg_namespace"."nspname" = any(current_schemas(false))))  
+D, [2016-04-06T15:05:05.125234 #29641] DEBUG -- :   [1m[36mROM[postgres] (0.6ms)[0m  [1mSELECT NULL AS "nil" FROM "settings" LIMIT 1[0m  
+D, [2016-04-06T15:05:05.126426 #29641] DEBUG -- :   [1m[35mROM[postgres] (0.9ms)[0m  SELECT pg_attribute.attname AS pk FROM pg_class, pg_attribute, pg_index, pg_namespace WHERE pg_class.oid = pg_attribute.attrelid AND pg_class.relnamespace = pg_namespace.oid AND pg_class.oid = pg_index.indrelid AND pg_index.indkey[0] = pg_attribute.attnum AND pg_index.indisprimary = 't' AND pg_class.oid = CAST(CAST('"settings"' AS regclass) AS oid)  
+D, [2016-04-06T15:05:05.126882 #29641] DEBUG -- :   [1m[36mROM[postgres] (0.2ms)[0m  [1mSELECT * FROM "settings" LIMIT 1[0m  
+I, [2016-04-06T15:05:42.817248 #29707]  INFO -- : ** [Raven] Raven 0.15.6 configured not to send errors.
+I, [2016-04-06T15:05:42.846693 #29707]  INFO -- : ** [Raven] Raven 0.15.6 ready to catch errors
+D, [2016-04-06T15:05:42.912086 #29707] DEBUG -- :   [1m[36mROM[postgres] (0.2ms)[0m  [1mSET standard_conforming_strings = ON[0m  
+D, [2016-04-06T15:05:42.912351 #29707] DEBUG -- :   [1m[35mROM[postgres] (0.2ms)[0m  SET client_min_messages = 'WARNING'  
+D, [2016-04-06T15:05:42.912572 #29707] DEBUG -- :   [1m[36mROM[postgres] (0.2ms)[0m  [1mSET DateStyle = 'ISO'[0m  
+D, [2016-04-06T15:05:42.914413 #29707] DEBUG -- :   [1m[35mROM[postgres] (1.5ms)[0m  SELECT "relname" FROM "pg_class" INNER JOIN "pg_namespace" ON ("pg_namespace"."oid" = "pg_class"."relnamespace") WHERE (("relkind" = 'r') AND ("pg_namespace"."nspname" = any(current_schemas(false))))  
+D, [2016-04-06T15:05:42.961068 #29707] DEBUG -- :   [1m[36mROM[postgres] (0.6ms)[0m  [1mSELECT NULL AS "nil" FROM "settings" LIMIT 1[0m  
+D, [2016-04-06T15:05:42.962324 #29707] DEBUG -- :   [1m[35mROM[postgres] (1.0ms)[0m  SELECT pg_attribute.attname AS pk FROM pg_class, pg_attribute, pg_index, pg_namespace WHERE pg_class.oid = pg_attribute.attrelid AND pg_class.relnamespace = pg_namespace.oid AND pg_class.oid = pg_index.indrelid AND pg_index.indkey[0] = pg_attribute.attnum AND pg_index.indisprimary = 't' AND pg_class.oid = CAST(CAST('"settings"' AS regclass) AS oid)  
+D, [2016-04-06T15:05:42.962808 #29707] DEBUG -- :   [1m[36mROM[postgres] (0.3ms)[0m  [1mSELECT * FROM "settings" LIMIT 1[0m  
+I, [2016-04-06T15:05:46.361555 #29728]  INFO -- : Started GET "/" for ::1 at 2016-04-06 15:05:46 +0200
+I, [2016-04-06T15:05:46.366185 #29728]  INFO -- : ** [Raven] User excluded error: #<ActionController::RoutingError: No route matches [GET] "/">
+F, [2016-04-06T15:05:46.366992 #29728] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  sentry-raven (0.15.6) lib/raven/integrations/rack.rb:53:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+I, [2016-04-06T15:05:46.614308 #29728]  INFO -- : Started GET "/favicon.ico" for ::1 at 2016-04-06 15:05:46 +0200
+I, [2016-04-06T15:05:46.614564 #29728]  INFO -- : ** [Raven] User excluded error: #<ActionController::RoutingError: No route matches [GET] "/favicon.ico">
+F, [2016-04-06T15:05:46.615306 #29728] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  sentry-raven (0.15.6) lib/raven/integrations/rack.rb:53:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+I, [2016-04-06T15:05:47.362239 #29728]  INFO -- : Started GET "/" for ::1 at 2016-04-06 15:05:47 +0200
+I, [2016-04-06T15:05:47.362460 #29728]  INFO -- : ** [Raven] User excluded error: #<ActionController::RoutingError: No route matches [GET] "/">
+F, [2016-04-06T15:05:47.363132 #29728] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  sentry-raven (0.15.6) lib/raven/integrations/rack.rb:53:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+I, [2016-04-06T15:05:56.268615 #29728]  INFO -- : Started GET "/" for ::1 at 2016-04-06 15:05:56 +0200
+I, [2016-04-06T15:05:56.268856 #29728]  INFO -- : ** [Raven] User excluded error: #<ActionController::RoutingError: No route matches [GET] "/">
+F, [2016-04-06T15:05:56.269229 #29728] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  sentry-raven (0.15.6) lib/raven/integrations/rack.rb:53:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+I, [2016-04-06T15:05:57.208520 #29728]  INFO -- : Started GET "/" for ::1 at 2016-04-06 15:05:57 +0200
+I, [2016-04-06T15:05:57.208743 #29728]  INFO -- : ** [Raven] User excluded error: #<ActionController::RoutingError: No route matches [GET] "/">
+F, [2016-04-06T15:05:57.209250 #29728] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  sentry-raven (0.15.6) lib/raven/integrations/rack.rb:53:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+I, [2016-04-06T15:05:57.517451 #29728]  INFO -- : Started GET "/" for ::1 at 2016-04-06 15:05:57 +0200
+I, [2016-04-06T15:05:57.517763 #29728]  INFO -- : ** [Raven] User excluded error: #<ActionController::RoutingError: No route matches [GET] "/">
+F, [2016-04-06T15:05:57.518162 #29728] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  sentry-raven (0.15.6) lib/raven/integrations/rack.rb:53:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+I, [2016-04-06T15:05:57.738305 #29728]  INFO -- : Started GET "/" for ::1 at 2016-04-06 15:05:57 +0200
+I, [2016-04-06T15:05:57.738532 #29728]  INFO -- : ** [Raven] User excluded error: #<ActionController::RoutingError: No route matches [GET] "/">
+F, [2016-04-06T15:05:57.738996 #29728] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  sentry-raven (0.15.6) lib/raven/integrations/rack.rb:53:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+I, [2016-04-06T15:05:58.330544 #29728]  INFO -- : Started GET "/" for ::1 at 2016-04-06 15:05:58 +0200
+I, [2016-04-06T15:05:58.331048 #29728]  INFO -- : ** [Raven] User excluded error: #<ActionController::RoutingError: No route matches [GET] "/">
+F, [2016-04-06T15:05:58.331494 #29728] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  sentry-raven (0.15.6) lib/raven/integrations/rack.rb:53:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+I, [2016-04-06T15:05:58.455078 #29728]  INFO -- : Started GET "/" for ::1 at 2016-04-06 15:05:58 +0200
+I, [2016-04-06T15:05:58.455350 #29728]  INFO -- : ** [Raven] User excluded error: #<ActionController::RoutingError: No route matches [GET] "/">
+F, [2016-04-06T15:05:58.455725 #29728] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  sentry-raven (0.15.6) lib/raven/integrations/rack.rb:53:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+I, [2016-04-06T15:05:58.580774 #29728]  INFO -- : Started GET "/" for ::1 at 2016-04-06 15:05:58 +0200
+I, [2016-04-06T15:05:58.581157 #29728]  INFO -- : ** [Raven] User excluded error: #<ActionController::RoutingError: No route matches [GET] "/">
+F, [2016-04-06T15:05:58.581843 #29728] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  sentry-raven (0.15.6) lib/raven/integrations/rack.rb:53:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+I, [2016-04-06T15:05:58.831282 #29728]  INFO -- : Started GET "/" for ::1 at 2016-04-06 15:05:58 +0200
+I, [2016-04-06T15:05:58.831551 #29728]  INFO -- : ** [Raven] User excluded error: #<ActionController::RoutingError: No route matches [GET] "/">
+F, [2016-04-06T15:05:58.832031 #29728] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  sentry-raven (0.15.6) lib/raven/integrations/rack.rb:53:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+I, [2016-04-06T15:29:39.642385 #30136]  INFO -- : ** [Raven] Raven 0.15.6 configured not to send errors.
+I, [2016-04-06T15:29:51.486882 #30179]  INFO -- : ** [Raven] Raven 0.15.6 configured not to send errors.
+I, [2016-04-06T15:30:02.119190 #30218]  INFO -- : ** [Raven] Raven 0.15.6 configured not to send errors.
+I, [2016-04-06T15:30:02.151767 #30218]  INFO -- : ** [Raven] Raven 0.15.6 ready to catch errors
+D, [2016-04-06T15:30:02.237738 #30218] DEBUG -- :   [1m[36mROM[postgres] (0.4ms)[0m  [1mSET standard_conforming_strings = ON[0m  
+D, [2016-04-06T15:30:02.238019 #30218] DEBUG -- :   [1m[35mROM[postgres] (0.2ms)[0m  SET client_min_messages = 'WARNING'  
+D, [2016-04-06T15:30:02.238217 #30218] DEBUG -- :   [1m[36mROM[postgres] (0.1ms)[0m  [1mSET DateStyle = 'ISO'[0m  
+D, [2016-04-06T15:30:02.240066 #30218] DEBUG -- :   [1m[35mROM[postgres] (1.5ms)[0m  SELECT "relname" FROM "pg_class" INNER JOIN "pg_namespace" ON ("pg_namespace"."oid" = "pg_class"."relnamespace") WHERE (("relkind" = 'r') AND ("pg_namespace"."nspname" = any(current_schemas(false))))  
+D, [2016-04-06T15:30:02.293567 #30218] DEBUG -- :   [1m[36mROM[postgres] (0.6ms)[0m  [1mSELECT NULL AS "nil" FROM "settings" LIMIT 1[0m  
+D, [2016-04-06T15:30:02.294802 #30218] DEBUG -- :   [1m[35mROM[postgres] (1.0ms)[0m  SELECT pg_attribute.attname AS pk FROM pg_class, pg_attribute, pg_index, pg_namespace WHERE pg_class.oid = pg_attribute.attrelid AND pg_class.relnamespace = pg_namespace.oid AND pg_class.oid = pg_index.indrelid AND pg_index.indkey[0] = pg_attribute.attnum AND pg_index.indisprimary = 't' AND pg_class.oid = CAST(CAST('"settings"' AS regclass) AS oid)  
+D, [2016-04-06T15:30:02.295250 #30218] DEBUG -- :   [1m[36mROM[postgres] (0.2ms)[0m  [1mSELECT * FROM "settings" LIMIT 1[0m  
+I, [2016-04-06T15:30:36.183068 #30241]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-04-06 15:30:36 +0200
+I, [2016-04-06T15:30:36.197514 #30241]  INFO -- : ** [Raven] User excluded error: #<ActionController::RoutingError: No route matches [GET] "/">
+F, [2016-04-06T15:30:36.201842 #30241] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  sentry-raven (0.15.6) lib/raven/integrations/rack.rb:53:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+I, [2016-04-06T15:31:36.856638 #30241]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-04-06 15:31:36 +0200
+I, [2016-04-06T15:31:36.856883 #30241]  INFO -- : ** [Raven] User excluded error: #<ActionController::RoutingError: No route matches [GET] "/">
+F, [2016-04-06T15:31:36.857503 #30241] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  sentry-raven (0.15.6) lib/raven/integrations/rack.rb:53:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+

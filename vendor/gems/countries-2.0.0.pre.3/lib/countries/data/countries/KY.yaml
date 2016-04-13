@@ -1,0 +1,43 @@
+---
+KY:
+  continent: North America
+  alpha2: KY
+  alpha3: CYM
+  country_code: '1'
+  international_prefix: '011'
+  ioc: CAY
+  gec: CJ
+  name: Cayman Islands
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 10
+  national_prefix: '1'
+  number: '136'
+  region: Americas
+  subregion: Caribbean
+  world_region: AMER
+  un_locode: KY
+  nationality: Caymanian
+  postal_code: true
+  unofficial_names:
+  - Cayman Islands
+  - Kaimaninseln
+  - "Îles Caïmans"
+  - Islas Caimán
+  - "ケイマン諸島"
+  - Caymaneilanden
+  languages_official:
+  - en
+  languages_spoken:
+  - en
+  geo:
+    latitude: 19 30 N
+    latitude_dec: '19.308862686157227'
+    longitude: 80 30 W
+    longitude_dec: "-81.25680541992188"
+    max_latitude: '19.75'
+    max_longitude: "-79.716667"
+    min_latitude: '19.25'
+    min_longitude: "-81.416667"
+  currency_code: KYD

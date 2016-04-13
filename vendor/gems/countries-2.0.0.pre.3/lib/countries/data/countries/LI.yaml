@@ -1,0 +1,39 @@
+---
+LI:
+  continent: Europe
+  alpha2: LI
+  alpha3: LIE
+  country_code: '423'
+  international_prefix: '00'
+  ioc: LIE
+  gec: LS
+  name: Liechtenstein
+  national_destination_code_lengths:
+  - 2
+  national_number_lengths:
+  - 7
+  national_prefix: None
+  number: '438'
+  region: Europe
+  subregion: Western Europe
+  world_region: EMEA
+  un_locode: LI
+  nationality: Liechtensteiner
+  postal_code: true
+  unofficial_names:
+  - Liechtenstein
+  - "リヒテンシュタイン"
+  languages_official:
+  - de
+  languages_spoken:
+  - de
+  geo:
+    latitude: 47 16 N
+    latitude_dec: '47.14126968383789'
+    longitude: 9 32 E
+    longitude_dec: '9.552783012390137'
+    max_latitude: '47.233333'
+    max_longitude: '9.75'
+    min_latitude: '47.05'
+    min_longitude: '9.5'
+  currency_code: CHF
