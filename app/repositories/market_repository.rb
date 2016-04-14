@@ -10,10 +10,8 @@ class MarketRepository < ROM::Repository
   end
 
   def all_for_tenant(org_id)
-    binding.pry
     markets
-      .combine(many: { countries: [countries, id: :countries_id] })
-      .as(:entity)
+      .combine_children(many: countries)
       .to_a
   end
 

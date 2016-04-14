@@ -1,5 +1,7 @@
 class Countries < ROM::Relation[:memory]
   use :key_inference
+  use :view
+
   gateway :memory
 
   ATTRIBUTES = [:name, :id].freeze
@@ -15,17 +17,19 @@ class Countries < ROM::Relation[:memory]
     restrict(id: id.upcase)
   end
 
-  def for_markets(markets)
-    restrict(id: markets.one[:countries_id].to_a)
+  view(:base, ATTRIBUTES) { self }
+
+  view(:for_markets, [:id, :market_id, :name]) do |markets|
+    dataset = markets.flat_map do |market|
+      restrict(id: market[:countries_id].to_a)
+        .map { |t| t.merge(market_id: market[:id]) }
+    end
+    __new__(dataset)
   end
 
   private
 
   def primary_key
     :id
-  end
-
-  def attributes
-    ATTRIBUTES
   end
 end
